@@ -1,9 +1,9 @@
 """
 Objective
-    To anatomically identify a region of interest (ROI) in a nifti brain image mask.
+    To anatomically identify a region of interest (ROI) in a nifty brain image mask.
 
 Description
-    This script compares an input brain image mask, in the nifti format (.nii), with the AAL3v1 brain parcellation [1], to anatomically name the ROIs of the input image. The result will be an CSV file, with four columns:
+    This script compares an input brain image mask, in the nifty format (.nii), with the AAL3v1 brain parcellation [1], to anatomically name the ROIs of the input image. The result will be an CSV file, with four columns:
         roi -> The index number of the ROI in the input brain image;
         Anatomical Description -> The name of the region the ROI is a part of;
         Hemisphere -> If this region is located at the right or left hemisphere or non-lateralized;
